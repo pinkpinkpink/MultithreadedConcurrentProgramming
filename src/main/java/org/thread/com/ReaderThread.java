@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.net.Socket;
 import java.nio.Buffer;
 
+
 /**
  * 描述:
  * Thread
@@ -44,7 +45,7 @@ public class ReaderThread extends Thread {
              * @see Thread#run()
              */
                 try{
-                    byte[] buffer = new byte[];
+                    byte[] buffer = new byte[Buffer];
                     while(true){
                         int count = inputStream(buffer);
                         if(count < 0){
@@ -61,6 +62,10 @@ public class ReaderThread extends Thread {
                 }
 
             }
+
+    private void ReaderThread(byte[] buffer, int count) {
+            return;
+    }
 
 }
 
