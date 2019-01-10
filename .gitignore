@@ -23,3 +23,9 @@
 hs_err_pid*
 
 .idea
+.DS_Store
+.gradle/
+.gradlew
+gradlew.bat
+settings.gradle
+META_INF
